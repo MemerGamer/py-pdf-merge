@@ -3,7 +3,7 @@
 from pypdf import PdfMerger 
 import sys 
 
-if len(sys.argv) < 1:
+if len(sys.argv) < 2:
     print("Usage: ",sys.argv[0], "/path/to/filename.pdf path/to/filename2.pdf ...")
     exit(-1)
 
